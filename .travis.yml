@@ -6,20 +6,28 @@ before_install:
 
 env:
   - TDLLANG=
+  - TDLLANG=ar_AR
+  - TDLLANG=be_BY
   - TDLLANG=de_DE
   - TDLLANG=en_GB
   - TDLLANG=el_EL
   - TDLLANG=es_ES
   - TDLLANG=fr_FR
   - TDLLANG=hi_IN
+  - TDLLANG=id_ID
   - TDLLANG=it_IT
   - TDLLANG=ja_JP
+  - TDLLANG=lt_LT
+  - TDLLANG=ms_MY
   - TDLLANG=nl_NL
   - TDLLANG=pl_PL
   - TDLLANG=pt_BR
   - TDLLANG=ru_RU
   - TDLLANG=sv_SE
+  - TDLLANG=tr_TR
   - TDLLANG=uk_UA
+  - TDLLANG=hr_HR
+  - TDLLANG=hu_HU
 
 before_script:
   - sed -i "s/de_DE/$TDLLANG/" config.tex
